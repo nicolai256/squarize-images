@@ -2,11 +2,11 @@
 
 #
 
-for voc activate voc_sd environment
+activate SD environment
 
 pip install natsort==8.1.0  on top of the environment
 
-place src folder in stable diffusion folder
+place src folder in stable-diffusion folder
 
 Download the pre-trained weights
 
