@@ -1,6 +1,6 @@
 # squarize-images
 
-place this folder in your stable diffusion directory
+place the scripts folder in your stable diffusion directory
 
 **squarize images script**
 
