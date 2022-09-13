@@ -2,6 +2,11 @@
 
 place the scripts folder in your stable diffusion directory
 
+Download the pre-trained weights
+```
+wget -O models/ldm/inpainting_big/last.ckpt https://heibox.uni-heidelberg.de/f/4d9ac7ea40c64582b7c9/?dl=1
+```
+
 **run squarize images**
 
 ```
