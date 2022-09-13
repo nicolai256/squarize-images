@@ -32,3 +32,7 @@ python src\\latent-diffusion\\squarizeimages.py --input "C:\Users\Gebruiker\Docu
 
 
 ![](demo.png)
+
+this is an example of a combination of --edgeremoval --edgedetection "40%" --extra_crop to remove borders
+
+![](demo2.png)
