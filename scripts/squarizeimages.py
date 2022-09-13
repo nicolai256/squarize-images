@@ -54,26 +54,26 @@ def rmdirs():
 	import shutil
 
 	
-	if not os.path.exists(zero1):
+	if os.path.exists(zero1):
 		shutil.rmtree(zero1, ignore_errors=True)
-	if not os.path.exists(one1):
+	if os.path.exists(one1):
 		shutil.rmtree(one1, ignore_errors=True)
-	if not os.path.exists(two1):
+	if os.path.exists(two1):
 		shutil.rmtree(two1, ignore_errors=True)
-	if not os.path.exists(three1):
+	if os.path.exists(three1):
 		shutil.rmtree(three1, ignore_errors=True)
-	if not os.path.exists(five1):
+	if os.path.exists(five1):
 		shutil.rmtree(five1, ignore_errors=True)
 	import subprocess
 	from pathlib import Path
 
 	#using pathlib.Path
-	path = Path(zero1)
-	subprocess.run(["rm", "-rf", str(path)])
+	#path = Path(zero1)
+	#subprocess.run(["rm", "-rf", str(path)])
 
 	#using strings
-	path = zero1
-	subprocess.run(["rm", "-rf", path])
+	#path = zero1
+	#subprocess.run(["rm", "-rf", path])
 rmdirs()
 
 def mkdirs():
@@ -257,15 +257,15 @@ def rmdirs():
 	import shutil
 
 	
-	if not os.path.exists(zero1):
+	if os.path.exists(zero1):
 		shutil.rmtree(zero1, ignore_errors=True)
-	if not os.path.exists(one1):
+	if os.path.exists(one1):
 		shutil.rmtree(one1, ignore_errors=True)
-	if not os.path.exists(two1):
+	if os.path.exists(two1):
 		shutil.rmtree(two1, ignore_errors=True)
-	if not os.path.exists(three1):
+	if os.path.exists(three1):
 		shutil.rmtree(three1, ignore_errors=True)
-	if not os.path.exists(five1):
+	if os.path.exists(five1):
 		shutil.rmtree(five1, ignore_errors=True)
 	import subprocess
 	from pathlib import Path
