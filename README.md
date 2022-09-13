@@ -32,10 +32,10 @@ python src\\latent-diffusion\\squarizeimages.py --input "C:\Users\Gebruiker\Docu
 
 ```--voc "1"``` if you have voc installed it will use the folders in voc automatically and you won't need to pass the latent diffusion location
 
-```--latent_diffusion_path``` **only pass this if you're not using the voc version**, path will be something like this path/to/Stable Diffusion/src/latent-diffusion
+```--latent_diffusion_path``` **only pass this if you're not using the voc version**, path will be something like this = path/to/Stable Diffusion/src/latent-diffusion
 
 ![](demo.png)
 
-this is an example of a combination of ```--edgeremoval --edgedetection "40%" --extra_crop``` to remove borders
+this is an example of a combination of ```--edgeremoval "1" --edgedetection "40%" --extra_crop "1"``` to remove borders
 
 ![](demo2.png)
