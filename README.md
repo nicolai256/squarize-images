@@ -18,21 +18,21 @@ to run the script
 ```
 python src\\latent-diffusion\\squarizeimages.py --input "C:\Users\Gebruiker\Documents\Visions of Chaos\Movies\00000000/" --steps "50" --projectname "square1" --edgeremoval --edgedetection "40%" --extra_crop --outdir "whatever/dir/is/possible"
 ```
-```**--input**``` the input folder
+```--input "path/to/input/images/folder/"``` the input folder
 
-```**--steps**``` the amount of steps the inpainting does
+```--steps "50"``` the amount of steps the inpainting does
 
-```**--edgeremoval**``` activates --edgedetection
+```--edgeremoval "1" ``` activates --edgedetection
 
-```**--edgedetection**``` the percentage of how much borderdetection is going on
+```--edgedetection "40%"``` the percentage of how much borderdetection is going on
 
-**--extra_crop** adds an extra 10px crop on each side 
+```--extra_crop "1" ``` adds an extra 10px crop on each side 
 
-**--outdir** the output folder
+```--outdir "path/to/output/images/folder"``` the output folder
 
-**--voc "1"** if you have voc installed it will use the folders in voc automatically and you won't need to pass the latent diffusion location
+```--voc "1"``` if you have voc installed it will use the folders in voc automatically and you won't need to pass the latent diffusion location
 
-**--latent_diffusion_path** only pass this if you're not using the voc version, path will be something like this path/to/Stable Diffusion/src/latent-diffusion
+```--latent_diffusion_path``` **only pass this if you're not using the voc version**, path will be something like this path/to/Stable Diffusion/src/latent-diffusion
 
 ![](demo.png)
 
