@@ -4,7 +4,7 @@
 
 activate SD environment
 
-pip install natsort==8.1.0  on top of the environment
+```pip install natsort==8.1.0```  on top of your environment
 
 place src folder in stable-diffusion folder
 
