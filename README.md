@@ -22,11 +22,11 @@ python src\\latent-diffusion\\squarizeimages.py --input "C:\Users\Gebruiker\Docu
 
 ```--steps "50"``` the amount of steps the inpainting does
 
-```--edgeremoval "1" ``` activates --edgedetection
+```--edgeremoval "1"``` activates --edgedetection
 
 ```--edgedetection "40%"``` the percentage of how much borderdetection is going on
 
-```--extra_crop "1" ``` adds an extra 10px crop on each side 
+```--extra_crop "1"``` adds an extra 10px crop on each side 
 
 ```--outdir "path/to/output/images/folder"``` the output folder
 
